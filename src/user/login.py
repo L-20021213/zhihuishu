@@ -225,10 +225,10 @@ def get_share_course(s,uuid,usernm):
                 course_dic['ongoing'] = course['lessonName'] # 低碳及实现低碳社会的承诺
                 course_dic['ongoingnum'] = course['lessonNum']  # 1.3
                 course_dic['progress'] = course['progress']  # 3.6%
-                course_dic['recruitid'] = course['recruitId'] # 82599
-                course_dic['secret'] = course['secret'] # 425a5c514c524258454a58595e415847
-                course_dic['starttime'] = course['courseStartTime'] # 1633622400000
-                course_dic['endtime'] = course['courseEndTime'] # 1639583999000
+                course_dic['recruitid'] = course['recruitId'] 
+                course_dic['secret'] = course['secret'] 
+                course_dic['starttime'] = course['courseStartTime'] 
+                course_dic['endtime'] = course['courseEndTime'] 
                 sharecourse_info.append(course_dic)
         else:
             break
